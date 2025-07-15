@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1d1d1d;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#story {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+#options button {
+    display: block;
+    margin: 10px 0;
+    background-color: #007acc;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#options button:hover {
+    background-color: #005fa3;
+}
